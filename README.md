@@ -3,7 +3,6 @@
 This project is developed as part of the assignment given by **Asian Contec Ltd. (Stanlay)**.  
 It demonstrates the implementation of Laravel Repository Pattern with Migrations, Seeders, and RESTful APIs.
 
----
 
  **Features Implemented**
 -  Laravel 10 Repository Pattern (Clean Code Architecture)
@@ -14,11 +13,9 @@ It demonstrates the implementation of Laravel Repository Pattern with Migrations
 -  Tested using Postman (CRUD API Collection included)
 -  Optional Blade Frontend for Product Listing
 
----
 
 **Project Structure**
 
-```
 app/
  └── Repositories/
      ├── Interfaces/
@@ -37,8 +34,6 @@ routes/
  └── web.php
 ```
 
----
-
 **API Endpoints:**
 
 | Method | Endpoint                   | Description             |
@@ -48,7 +43,6 @@ routes/
 | POST  | /api/add/update/products    | Create or Update product|
 | DELETE| /api/product/delete/{id}    | Soft delete product     |
 
----
 
 **How to Run**
 
@@ -62,7 +56,6 @@ php artisan migrate --seed
 php artisan serve
 ```
 
----
 
 **API Testing:**
 
