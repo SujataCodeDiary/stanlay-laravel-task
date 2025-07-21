@@ -1,12 +1,11 @@
 
-# Stanlay Laravel Task
-
+**Stanlay Laravel Task**
 This project is developed as part of the assignment given by **Asian Contec Ltd. (Stanlay)**.  
 It demonstrates the implementation of Laravel Repository Pattern with Migrations, Seeders, and RESTful APIs.
 
 ---
 
-##  Features Implemented:
+ **Features Implemented**
 -  Laravel 10 Repository Pattern (Clean Code Architecture)
 -  Categories & Products CRUD Operations
 -  Migration with Eloquent Relationships
@@ -17,7 +16,7 @@ It demonstrates the implementation of Laravel Repository Pattern with Migrations
 
 ---
 
-##  Project Structure:
+**Project Structure**
 
 ```
 app/
@@ -40,7 +39,7 @@ routes/
 
 ---
 
-##  API Endpoints:
+**API Endpoints:**
 
 | Method | Endpoint                   | Description             |
 |--------|-----------------------------|-------------------------|
@@ -51,7 +50,7 @@ routes/
 
 ---
 
-##  How to Run:
+**How to Run**
 
 ```bash
 git clone https://github.com/SujataCodeDiary/stanlay-laravel-task.git
@@ -65,12 +64,12 @@ php artisan serve
 
 ---
 
-##  API Testing:
+**API Testing:**
 
 -  Use the provided **Postman Collection** in `postman/` folder
 -  Test all CRUD APIs with provided example data  
 
 
-##  Thank You!
+**Thank You!**
 Task Completed by **Sujata Mottha**  
 Laravel Backend Developer  
