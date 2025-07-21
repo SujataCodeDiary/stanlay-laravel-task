@@ -46,8 +46,7 @@ routes/
 |--------|----------|-------------|
 | GET | `/api/products` | Get all products |
 | GET | `/api/products/{id}` | Get product by ID |
-| POST | `/api/products` | Create new product |
-| PUT | `/api/products/{id}` | Update existing product |
+| POST | `/api/products` | Create/Update product |
 | DELETE | `/api/products/{id}` | Soft delete product |
 
 ---
