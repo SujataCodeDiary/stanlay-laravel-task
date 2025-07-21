@@ -42,12 +42,12 @@ routes/
 
 ##  API Endpoints:
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/products` | Get all products |
-| GET | `/api/products/{id}` | Get product by ID |
-| POST | `/api/products` | Create/Update product |
-| DELETE | `/api/products/{id}` | Soft delete product |
+| Method | Endpoint                   | Description             |
+|--------|-----------------------------|-------------------------|
+| GET   | /api/product-list           | Get all products        |
+| GET   | /api/product-detail/{id}    | Get product by ID       |
+| POST  | /api/add/update/products    | Create or Update product|
+| DELETE| /api/product/delete/{id}    | Soft delete product     |
 
 ---
 
